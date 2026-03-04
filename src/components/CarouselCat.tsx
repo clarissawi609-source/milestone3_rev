@@ -101,12 +101,7 @@ function CarouselCat() {
                       href={`/product?categoryId=${category.id}`}
                       className="group relative block h-72 rounded-lg overflow-hidden cursor-pointer"
                     >
-                      {/* Background Image */}
-                      <img
-                        src={category.image}
-                        alt={category.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                      />
+            
 
                       {/* Overlay */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
