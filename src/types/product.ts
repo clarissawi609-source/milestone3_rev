@@ -1,6 +1,7 @@
 export type Category = {
-id: number;
-name: string;
+  id: number;
+  name: string;
+  image?: string;
 };
 
 export type Product = {
