@@ -129,9 +129,9 @@ export default function LoginPage() {
             </Button>
           </form>
           <div className=" border-t border-white/20 text-xs pt-4 text-gray-400 text-center">
-            <p className="p-2">Example credentials </p>
-            <p>User: john@mail.com / changeme </p>
-            <p>Admin: admin@mail.com / admin123</p>
+            <p className="p-2">dummy user </p>
+            <p>User: usercoba1.com / user123 </p>
+            <p>Admin: admincoba1@mail.com / admin321</p>
           </div>
         </CardContent>
       </Card>
