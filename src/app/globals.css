@@ -9,6 +9,8 @@
     @apply border-border outline-ring/50;
   }
   body {
+     font-family: Calibri, "Segoe UI", Arial, sans-serif;
+     color: #7830b0; /* ungu tua */
     @apply bg-background text-foreground;
   }
 }
@@ -59,14 +61,14 @@
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(52.26% 0.2271 323.307);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(48.707% 0.15114 24.7);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
+  --popover-foreground: oklch(52.26% 0.2271 323.307);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: oklch(26.033% 0.00003 271.152);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
@@ -82,7 +84,7 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-foreground: oklch(52.26% 0.2271 323.307);
   --sidebar-primary: oklch(0.205 0 0);
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.97 0 0);
@@ -92,7 +94,7 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  --background: oklch(52.26% 0.2271 323.307);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);

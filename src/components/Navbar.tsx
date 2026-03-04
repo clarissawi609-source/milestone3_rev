@@ -100,7 +100,7 @@ export default function Navbar() {
           {/* LOGO + PRODUCT (DESKTOP) */}
           <div className="flex items-center gap-6">
             <Link href="/" className="text-2xl font-extrabold">
-              RissaStore
+              COBA1Store
             </Link>
 
             {navItems.map((item) => (

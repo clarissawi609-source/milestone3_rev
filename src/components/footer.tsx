@@ -5,9 +5,9 @@ function Footer() {
         <p className="text-sm text-gray-400">
           2026{" "}
           <a href="https://github.com/clarissawi609-source" target="blank">
-            Clarissa.
+        
           </a>
-          All rights reserved.
+          BERSAMA KITA MAJU
         </p>
         <span className="text-sm text-gray-400">
           <a
